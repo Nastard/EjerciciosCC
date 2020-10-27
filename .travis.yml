@@ -2,9 +2,9 @@ language: node_js
 node_js:
    - "v15.0.1"
 before_install:
-   - cd Ejercicios\ Tema2
+   - cd "Ejercicios Tema2"
    - npm install -g mocha
    - npm install .
 script:
-   - cd Ejercicios\ Tema2
+   - cd "Ejercicios Tema2"
    - mocha test
