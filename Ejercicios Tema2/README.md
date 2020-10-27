@@ -69,5 +69,5 @@ Lo arreglamos y ya no tenemos el error:\
 **Ejercicio: Haced los dos primeros pasos antes de pasar al tercero.**  
 Nos hemos dado de alta en [Travis](https://travis-ci.org/) y habilitado el respositorio para que aplique la integración continua:\
 ![CapturaEjercicio5.1](./img/Ejer5.1.png)\
-Y ahora tras subir el [archivo necesario](../.travis.yml) de Travis vemos como los test pasasn correctamente:\
+Y ahora tras subir el [archivo necesario](../.travis.yml) de Travis vemos como los test pasan correctamente:\
 ![CapturaEjercicio5.2](./img/Ejer5.2.png)
