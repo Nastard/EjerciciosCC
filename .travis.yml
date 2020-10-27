@@ -6,5 +6,4 @@ before_install:
    - npm install -g mocha
    - npm install .
 script:
-   - cd "Ejercicios Tema2"
    - mocha test
