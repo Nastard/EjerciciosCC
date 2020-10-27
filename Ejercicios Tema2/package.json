@@ -1,0 +1,27 @@
+{
+  "name": "ejercicio2",
+  "version": "1.0.0",
+  "description": "Ejercicio2 del tema2.",
+  "main": "package.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nastard/EjerciciosCC.git"
+  },
+  "author": "David Sanchez",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Nastard/EjerciciosCC/issues"
+  },
+  "homepage": "https://github.com/Nastard/EjerciciosCC#readme",
+  "dependencies": {
+    "sqlite": "^4.0.15"
+  },
+  "devDependencies": {
+    "docco": "^0.8.0",
+    "grunt-docco": "^0.5.0",
+    "mocha": "^8.2.0"
+  }
+}
