@@ -21,8 +21,8 @@ Con el siguiente omando, seleccionamos la más reciente:\
 ![CapturaEjercicio1.8](./img/Ejer1.8.png)
 
 ### Ejercicio 2
-**Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.**
-Para crear el [package.json](./package.json) ejecutamos `npm init` y rellenamos con los datos qeu nos pide:\
+**Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.**  
+Para crear el [package.json](./package.json) ejecutamos `npm init` y rellenamos con los datos que nos pide:\
 ![CapturaEjercicio2.1](./img/Ejer2.1.png)\
 Podemos instalar los paquetes deseados...\
 ![CapturaEjercicio2.2](./img/Ejer2.2.png)\
@@ -30,7 +30,7 @@ Podemos instalar los paquetes deseados...\
 ![CapturaEjercicio2.3](./img/Ejer2.3.png)
 
 ### Ejercicio 3
-**Descargar el repositorio de ejemplo anterior, instalar las herramientas necesarias (principalmente Scala y sbt) y ejecutar el ejemplo desde sbt. Alternativamente, buscar otros marcos para REST en Scala tales como Finatra o Scalatra y probar los ejemplos que se incluyan en el repositorio.**
+**Descargar el repositorio de ejemplo anterior, instalar las herramientas necesarias (principalmente Scala y sbt) y ejecutar el ejemplo desde sbt. Alternativamente, buscar otros marcos para REST en Scala tales como Finatra o Scalatra y probar los ejemplos que se incluyan en el repositorio.**  
 Antes de nada debemos clonar el repositorio deseado con `git clone` y comprobar que Java y JDK estén instalados, ya que Scala los necesita:\
 ![CapturaEjercicio3.1](./img/Ejer3.1.png)\
 Instalamos Scala:
@@ -54,7 +54,7 @@ También podemos realizar una serie de ejemplos usando PUT y GET:\
 ![CapturaEjercicio3.11](./img/Ejer3.11.png)
 
 ### Ejercicio 4
-**Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga. A continuación, ejecutarlos desde mocha (u otro módulo de test de alto nivel), usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante.**
+**Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga. A continuación, ejecutarlos desde mocha (u otro módulo de test de alto nivel), usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante.**  
 
 Antes de nada instalamos [Mocha](https://mochajs.org/) siguiendo los pasos de su web:\
 ![CapturaEjercicio4.1](./img/Ejer4.1.png)\
@@ -66,7 +66,7 @@ Lo arreglamos y ya no tenemos el error:\
 ![CapturaEjercicio4.4](./img/Ejer4.4.png)
 
 ### Ejercicio 5
-**Ejercicio: Haced los dos primeros pasos antes de pasar al tercero.**
+**Ejercicio: Haced los dos primeros pasos antes de pasar al tercero.**  
 Nos hemos dado de alta en [Travis](https://travis-ci.org/) y habilitado el respositorio para que aplique la integración continua:\
 ![CapturaEjercicio5.1](./img/Ejer5.1.png)\
 Y ahora tras subir el [archivo necesario](./.travis.yml) de Travis vemos como los test pasasn correctamente:\
